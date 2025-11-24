@@ -1,0 +1,143 @@
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+  int num1, num2, soma , subtração;
+
+  printf("digite o primeiro numero:");
+
+  scanf ("%i", &num1);
+
+  printf("digite o segundo numero:");
+
+  scanf ("%i", &num2);
+
+   
+
+  soma = num1 + num2;
+
+  printf("a Soma dos dois é: %i + %i = %i\n", num1, num2, soma);
+
+   
+
+  subtração = num1 - num2;
+
+  printf("a subtração dos dois é: %i - %i = %i", num1, num2, subtração);
+
+
+
+  return 0;
+
+}
+
+
+
+2.
+
+
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+  int num1, num2, soma , média;
+
+  printf("digite o primeiro numero:");
+
+  scanf ("%i", &num1);
+
+  printf("digite o segundo numero:");
+
+  scanf ("%i", &num2);
+
+   
+
+  soma = num1 + num2;
+
+
+
+  média = soma / 2;
+
+   
+
+  printf("a média do aluno é: %i", média);
+
+
+
+  return 0;
+
+}
+
+
+
+3.
+
+}#include <stdio.h>
+
+
+
+int main()
+
+{
+
+  int num1 = 0, antecessor, sucessor;
+
+  printf("digite um número:");
+
+  scanf ("%i", &num1);
+
+
+
+  antecessor = num1 - 1;
+
+
+
+  sucessor = num1 + 1;
+
+   
+
+  printf("o sucessor é %i o antecessor de é %i", sucessor, antecessor);
+
+
+
+  return 0;
+
+}
+
+
+
+4.
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+  int num1, elevado;
+
+  printf("digite um número:");
+
+  scanf ("%i", &num1);
+
+
+
+  elevado = num1 * num1;
+
+  printf("o numero %i elevado a 2 é: %i",num1, elevado);  
+
+
+
+  return 0;
+
+}
